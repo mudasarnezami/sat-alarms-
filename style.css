@@ -1,0 +1,103 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body, .con , .cont{
+            
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        body{
+            height: 100vh;
+            background: #4a98f7;
+        }
+        .con{
+            width: 450px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px; 
+            flex-direction: column;
+        }
+        
+        .con h1{
+            
+            font-size: 40px;
+             margin: 30 0;
+        }
+        
+.con .conte {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* This ensures items inside the flex container are aligned vertically */
+}  
+        
+        .con .cont {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* This ensures items inside the flex container are aligned vertically */
+}  
+        
+        
+            
+      
+        .con .co{
+            
+            border: 1px;
+            border-style: solid;
+            border-color: #999;
+              display: flex;
+  justify-content: space-between;
+            width:300px;
+             width: calc(100% / 2 );
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        
+        .con .conte select{
+            
+            outline: 0;
+            border: 0;
+            width: 100%;
+            font-size: 16px;
+        }
+        .con .cont select{
+            
+            outline: 0;
+            border: 0;
+            width: 100%;
+            font-size: 16px;
+        }
+          .con .cont select{
+            
+            outline: 0;
+            border: 0;
+            width: 100%;
+        }
+        .con button{
+            width: 100%;
+          outline: 0;
+            border: 0;
+            background: #4a98f7;
+            color: aliceblue;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius:  5px;
+            font-size: 20px;
+                
+                
+                
+                
+                
+        }
+        .mudasar{
+            
+            opacity: 0.5;
+            pointer-events: none;
+        }
+    
