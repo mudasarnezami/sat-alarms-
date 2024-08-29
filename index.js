@@ -6,7 +6,7 @@ const content = document.querySelectorAll('.co');
 let alarmTime = '';
 let alarmState = 'noset';  // Consistent with the check
 
-const ringtone = new Audio('mu.mp3'); // Ensure the path is correct
+const ringtone = new Audio('ringtone.mp3'); // Ensure the path is correct
 
 // Function to populate select menu
 function populateSelectMenu(menu, start, end) {
