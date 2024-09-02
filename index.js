@@ -51,6 +51,13 @@ setInterval(() => {
 // Add event listener to the button
 setAlarmBtn.addEventListener('click', () => {
     checkstate(alarmState);
+
+    // Ensure the ringtone is allowed to play by triggering it with user interaction
+    if (alarmState === 'set' && !ringtone.paused) {
+        ringtone.play().catch(error => {
+            console.error('Unable to play ringtone on mobile due to autoplay restrictions:', error);
+        });
+    }
 });
 
 // Function to stop the ringtone (optional)
